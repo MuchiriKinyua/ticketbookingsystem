@@ -39,5 +39,8 @@ Route::post('/v1/mpesatest/stk/push', [MpesaSTKPUSHController::class, 'STKPush']
 
 Route::post('v1/confirm', [MpesaSTKPUSHController::class, 'STKConfirm'])->name('mpesa.confirm');
 
+use App\Http\Controllers\ReservationController;
+
+Route::post('/reserve', [ReservationController::class, 'reserve']);
 
 

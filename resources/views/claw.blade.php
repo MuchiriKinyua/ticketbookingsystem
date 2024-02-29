@@ -39,6 +39,10 @@
                 </select>
             </div>
     </div>
-    <div><button type="Buy" class="claw8">Buy</button></div>
+    <form action="{{ url('/reserve') }}" method="post">
+        @csrf
+        <button type="Buy" class="claw8">Buy</button>
+    </form>
+
 </body>
 </html>
