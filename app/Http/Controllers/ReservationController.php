@@ -1,30 +1,28 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Reservation; // Import your Reservation model
+use App\Models\Reservation;
 
 class ReservationController extends Controller
 {
     public function reserve(Request $request)
     {
-        // Validate the request data
-        $request->validate([
+        // Validate the request data as needed
+        $validatedData = $request->validate([
             'type' => 'required|in:VIP,Regular',
-            'num_tickets' => 'required|integer|min:1',
-            // Add other validations as needed
+            'number_of_tickets' => 'required|numeric|min:1|max:5',
+            // Add more validation rules if needed
         ]);
 
-        // Create a new reservation in the database
-        Reservation::create([
-            'type' => $request->input('type'),
-            'num_tickets' => $request->input('num_tickets'),
-            // Add other fields as needed
-        ]);
+        // Create a new reservation
+        $reservation = new Reservation();
+        $reservation->type = $validatedData['type'];
+        $reservation->number_of_tickets = $validatedData['number_of_tickets'];
+        // Set other reservation attributes as needed
+        $reservation->save();
 
-        // You can add more logic here, e.g., send a confirmation email
-
+        // Redirect or perform any additional actions
         return redirect()->back()->with('success', 'Reservation successful!');
     }
 }

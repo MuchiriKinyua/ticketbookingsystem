@@ -17,9 +17,13 @@
         <p>Runtime: 120 min</p>
         <p>Cast: Zac Efron, Jeremy Allen White, Maxwell Jacob Friedman</p>
         <p>Time: 07:00pm EAT</p>
-        <div class="claw4">
-            <label for="Type" class="col-md-4 col-form-label text-md-right">{{ __('Type') }}</label>
-        </div>
+        <form action="{{ url('/reserve') }}" method="post">
+            {{ csrf_field() }}
+            <div class="claw4">
+                <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('Type') }}</label>
+                <select id="type" class="form-control" name="type">
+                </select>
+            </div>
             <div class="claw5">
                 <select id="type" class="form-control" name="type">
                     <option value="VIP">VIP</option>
@@ -27,10 +31,12 @@
                 </select>
             </div>
             <div class="claw6">
-                Number of tickets
+                <label for="number_of_tickets" class="col-md-4 col-form-label text-md-right">{{ __('Number of tickets') }}</label>
+                <select id="number_of_tickets" class="form-control" name="number_of_tickets">
+                </select>
             </div>
             <div class="claw7">
-                <select id="number of tickets" class="form-control" name="type">
+                <select id="number_of_tickets" class="form-control" name="number_of_tickets">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -38,11 +44,7 @@
                     <option value="5">5</option>
                 </select>
             </div>
-    </div>
-    <form action="{{ url('/reserve') }}" method="post">
-        @csrf
-        <button type="Buy" class="claw8">Buy</button>
-    </form>
-
+            <button type="submit" class="claw8">Buy</button>
+        </form>
 </body>
 </html>
