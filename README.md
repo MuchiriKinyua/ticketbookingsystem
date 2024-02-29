@@ -5,13 +5,13 @@
 
 ### Table of Contents
 [1. Business Understanding](#1.-Business-Understanding) </br>
-### Business Description
-### Problem Statement
-### Research Questions
-### Data Understanding
-### Data Preparation
-### Conclusions
-### Recommendations
+[2. Business Description](2.-Business-Description) </br>
+[3. Problem Statement](3.-Problem-Statement) </br>
+[4. Research Questions](4.-Research-Questions) </br>
+[5. Data Understanding](5.-Data-Understanding) </br>
+[6. Data Preparation](6.-Data-Preparation) </br>
+[7. Conclusions](7.-Conclusions) </br>
+[8. Recommendations](8.-Recommendations)
 
 # 1. Business Understanding
 ## 2. Business Description
