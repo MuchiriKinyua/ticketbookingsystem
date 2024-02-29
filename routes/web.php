@@ -43,4 +43,8 @@ use App\Http\Controllers\ReservationController;
 
 Route::post('/reserve', [ReservationController::class, 'reserve']);
 
+Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
+    Route::resource('events', 'Admin\EventController');
+});
+
 

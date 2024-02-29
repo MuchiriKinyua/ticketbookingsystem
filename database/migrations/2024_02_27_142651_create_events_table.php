@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->text('description');
+            $table->dateTime('event_date');
+            $table->decimal('vip_ticket_price', 8, 2)->default(0);
+            $table->decimal('regular_ticket_price', 8, 2)->default(0);
+            $table->integer('max_attendees')->default(0);
             $table->timestamps();
         });
     }
