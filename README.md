@@ -9,7 +9,7 @@
 [3. Problem Statement](3.-Problem-Statement) </br>
 [4. Research Questions](4.-Research-Questions) </br>
 [5. Objectives](5.-Objectives) </br>
-[6. Data Preparation](6.-Data-Preparation) </br>
+[6. Methodology](6.-Methdology) </br>
 [7. Conclusions](7.-Conclusions) </br>
 [8. Recommendations](8.-Recommendations)
 
@@ -18,7 +18,7 @@
 ## 3. Problem Statement
 ## 4. Research Questions
 ## 5. Objectives
-## 6. Data Preparation
+## 6. Methodology
 ## 7. Conclusions
 ## 8. Recommendations
 
