@@ -33,5 +33,11 @@ use App\Http\Controllers\MeanController;
 
 Route::get('/mean', [MeanController::class, 'index'])->name('mean');
 
+use App\Http\Controllers\MpesaSTKPUSHController;
+
+Route::post('/v1/mpesatest/stk/push', [MpesaSTKPUSHController::class, 'STKPush']);
+
+Route::post('v1/confirm', [MpesaSTKPUSHController::class, 'STKConfirm'])->name('mpesa.confirm');
+
 
 
