@@ -3,7 +3,7 @@
 
 ## Overview
 
-### Table of Contents
+## Table of Contents
 [1. Business Understanding](#1.-Business-Understanding) </br>
 [2. Business Description](2.-Business-Description) </br>
 [3. Problem Statement](3.-Problem-Statement) </br>
@@ -13,7 +13,7 @@
 [7. Conclusions](7.-Conclusions) </br>
 [8. Recommendations](8.-Recommendations)
 
-# 1. Business Understanding
+## 1. Business Understanding
 ## 2. Business Description
 ## 3. Problem Statement
 ## 4. Research Questions
