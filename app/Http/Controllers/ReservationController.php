@@ -1,8 +1,12 @@
 <?php
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use App\Models\Reservation;
+use App\Mail\ReservationNotification;
 
 class ReservationController extends Controller
 {
@@ -22,7 +26,13 @@ class ReservationController extends Controller
         // Set other reservation attributes as needed
         $reservation->save();
 
+        // Get the user's email
+        $userEmail = Auth::user()->email;
+
+        // Send reservation notification email
+        Mail::to($userEmail)->send(new ReservationNotification($userEmail, $reservation));
+
         // Redirect or perform any additional actions
-        return redirect()->back()->with('success', 'Reservation successful!');
+        return redirect()->back()->with('success', 'Reservation successful! An email has been sent.');
     }
 }

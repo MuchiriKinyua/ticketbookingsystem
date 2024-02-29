@@ -21,7 +21,6 @@
             {{ csrf_field() }}
             <div class="claw4">
                 <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('Type') }}</label>
-                <select id="type" class="form-control" name="type">
                 </select>
             </div>
             <div class="claw5">
@@ -32,7 +31,6 @@
             </div>
             <div class="claw6">
                 <label for="number_of_tickets" class="col-md-4 col-form-label text-md-right">{{ __('Number of tickets') }}</label>
-                <select id="number_of_tickets" class="form-control" name="number_of_tickets">
                 </select>
             </div>
             <div class="claw7">

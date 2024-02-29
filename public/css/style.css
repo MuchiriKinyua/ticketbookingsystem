@@ -140,11 +140,23 @@ a {
 .land4{
     margin-left: 950px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
 }
 .land5{
     margin-left: 950px;
     margin-top: 10px;
+}
+.land6{
+    margin-left: 950px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.land7{
+    margin-top: 10px;
+    margin-left: 950px;
+}
+.land8{
+    margin-left: 950px;
 }
 /* mean */
 .mean1{
@@ -161,6 +173,7 @@ a {
 .mean4{
     margin-left: 950px;
     margin-top: 10px;
+    font-size: 30px;
 }
 .mean5{
     margin-left: 950px;
@@ -169,6 +182,13 @@ a {
 .mean6{
     margin-left: 950px;
     margin-top: 10px;
+    font-size: 30px;
+}
+.mean7{
+    margin-left: 950px;
+}
+.mean8{
+    margin-left: 950px;
 }
 .col-md-6{
     margin-left: 950px;

@@ -18,20 +18,24 @@
         <p>Cast: Lindsay Lohan, Rachel McAdams, Tina Fey</p>
         <p>Time: 11:00pm EAT</p>
     </div>
-    <div class="form-group-row">
-        <label for="Type" class="col-md-4 col-form-label text-md-right">{{ __('Type') }}</label>
-    </div>
-        <div class="col-md-6">
-            <select id="Type" class="form-control" name="Type">
+    <form action="{{ url('/reserve') }}" method="post">
+        {{ csrf_field() }}
+        <div class="mean4">
+            <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('Type') }}</label>
+            </select>
+        </div>
+        <div class="mean5">
+            <select id="type" class="form-control" name="type">
                 <option value="VIP">VIP</option>
                 <option value="Regular">Regular</option>
             </select>
         </div>
-        <div class="mean4">
-            Number of tickets
+        <div class="mean6">
+            <label for="number_of_tickets" class="col-md-4 col-form-label text-md-right">{{ __('Number of tickets') }}</label>
+            </select>
         </div>
-        <div class="mean5">
-            <select id="number of tickets" class="form-control" name="Type">
+        <div class="mean7">
+            <select id="number_of_tickets" class="form-control" name="number_of_tickets">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -39,6 +43,7 @@
                 <option value="5">5</option>
             </select>
         </div>
-        <div><button type="Buy" class="mean6">Buy</button></div>
+        <button type="submit" class="mean8">Buy</button>
+    </form>
 </body>
 </html>
