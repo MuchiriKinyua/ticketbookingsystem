@@ -13,7 +13,7 @@
 ### Conclusions
 ### Recommendations
 
-## 1. Business Understanding
+# 1. Business Understanding
 ## 2. Business Description
 ## 3. Problem Statement
 ## 4. Research Questions
