@@ -19,13 +19,26 @@
         <p>Time: 11:00pm EAT</p>
     </div>
     <div class="form-group-row">
-        <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('type') }}</label>
+        <label for="Type" class="col-md-4 col-form-label text-md-right">{{ __('Type') }}</label>
     </div>
         <div class="col-md-6">
-            <select id="type" class="form-control" name="type">
+            <select id="Type" class="form-control" name="Type">
                 <option value="VIP">VIP</option>
                 <option value="Regular">Regular</option>
             </select>
         </div>
+        <div class="mean4">
+            Number of tickets
+        </div>
+        <div class="mean5">
+            <select id="number of tickets" class="form-control" name="Type">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div><button type="Buy" class="mean6">Buy</button></div>
 </body>
 </html>

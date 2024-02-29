@@ -125,6 +125,9 @@ a {
     font-size: 30px;
     margin-left: 800px;
 }
+.claw8{
+    margin-left: 800px;
+}
 /* land  */
 .land1{
     background-color: green;
@@ -139,10 +142,12 @@ a {
 }
 .land4{
     margin-left: 950px;
+    margin-top: 10px;
     font-size: 20px;
 }
 .land5{
     margin-left: 950px;
+    margin-top: 10px;
 }
 /* mean */
 .mean1{
@@ -155,6 +160,18 @@ a {
 .mean3{
     margin-left: 950px;
     font-size: 30px;
+}
+.mean4{
+    margin-left: 950px;
+    margin-top: 10px;
+}
+.mean5{
+    margin-left: 950px;
+    margin-top: 10px;
+}
+.mean6{
+    margin-left: 950px;
+    margin-top: 10px;
 }
 .col-md-6{
     margin-left: 950px;

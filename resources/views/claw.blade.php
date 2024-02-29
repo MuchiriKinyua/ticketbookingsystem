@@ -18,7 +18,7 @@
         <p>Cast: Zac Efron, Jeremy Allen White, Maxwell Jacob Friedman</p>
         <p>Time: 07:00pm EAT</p>
         <div class="claw4">
-            <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('type') }}</label>
+            <label for="Type" class="col-md-4 col-form-label text-md-right">{{ __('Type') }}</label>
         </div>
             <div class="claw5">
                 <select id="type" class="form-control" name="type">
@@ -26,6 +26,19 @@
                     <option value="Regular">Regular</option>
                 </select>
             </div>
+            <div class="claw6">
+                Number of tickets
+            </div>
+            <div class="claw7">
+                <select id="number of tickets" class="form-control" name="type">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
     </div>
+    <div><button type="Buy" class="claw8">Buy</button></div>
 </body>
 </html>
