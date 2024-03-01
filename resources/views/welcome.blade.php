@@ -17,6 +17,9 @@
         </style>
     </head>
     <body class="antialiased">
+        <div class="claw9">
+            <a href="{{ route('admin.login') }}">Login as Administrator</a>
+        </div>
         <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
             @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
@@ -30,7 +33,7 @@
                         @endif
                     @endauth
 
-                    <div>
+                    <div class="image5">
                         <img src="{{ asset('images/cinema.jpeg') }}" alt="Your Image">
                     </div>
                 </div>
@@ -46,8 +49,6 @@
                         <p>Copyright &copy; Made with <i class="fas fa-heart"></i> by Cytonn investments. All rights reserved.</p>
                     </div>
                 </div>
-
-
             @endif
             </div>
         </div>

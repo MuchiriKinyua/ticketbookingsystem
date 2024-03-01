@@ -8,9 +8,6 @@
     <title>The iron claw</title>
 </head>
 <body class="claw1">
-    <div class="claw8">
-        <a href="{{ route('admin.login') }}">Login as Administrator</a>
-    </div>
     <div class="claw2">
         <img src="{{ asset('images/claw.jpeg') }}" alt="">
     </div>

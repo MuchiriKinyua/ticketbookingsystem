@@ -7,7 +7,7 @@
 }
 img {
     max-width: 100%;
-    margin-top: 120px;
+    margin-top: 200px;
     margin-right: 740px;
     display: block;
     width: 400px;
@@ -31,6 +31,9 @@ img {
 }
 .copyright{
     margin-top: auto;
+}
+.image5{
+    margin-top: 100px;
 }
 /* homepage */
 .homepage{
@@ -124,6 +127,9 @@ a {
 .claw3{
     font-size: 30px;
     margin-left: 800px;
+}
+.claw9{
+    font-size: 30px;
 }
 /* land  */
 .land1{
