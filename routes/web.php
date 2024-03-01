@@ -47,7 +47,6 @@ Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
     Route::resource('events', 'AdminEventController');
 });
 
-Route::get('/admin-login', 'AdminController@login')->name('admin.login');
 
 Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
     Route::get('/login', 'AdminController@login')->name('admin.login');
