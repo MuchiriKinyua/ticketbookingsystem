@@ -26,8 +26,8 @@
         </div>
         <div class="land5">
             <select id="type" class="form-control" name="type">
-                <option value="VIP">VIP</option>
-                <option value="Regular">Regular</option>
+                <option value="VIP">VIP - Sh.3,000</option>
+                <option value="Regular">Regular - Sh.1,000</option>
             </select>
         </div>
         <div class="land6">
