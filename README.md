@@ -53,8 +53,8 @@ iv. Notification System: The successful reservation triggers an email notificati
 v. Tools and Technologies: The project utilizes Laravel, a PHP web application framework, for backend development. Laravel's features, such as Blade templating, contribute to efficient and maintainable code. </br>
 vi. External Tools: Mpesa daraja api is used to enable users to pay directly via the app (lipa na Mpesa). Ngrok is employed for exposing a local server to the internet, facilitating testing and demonstration. Additionally, Composer is used for package management and autoloading. </br?
 ## 6. Recommendations
-i. Improve more on the Mpesa part to ensure the appropriate security measures are in place.
-ii. Make the app dynamic to include new movies purchased automatically.
-iii. Utilize machine learning models to ensure the app is optimized to handle user needs more efficiently.
+i. Improve more on the Mpesa part to ensure the appropriate security measures are in place. </br>
+ii. Make the app dynamic to include new movies purchased automatically. </br>
+iii. Utilize machine learning models to ensure the app is optimized to handle user needs more efficiently. </br>
 iv. Continue testing and maintaining the application to identify loopholes which may be used by "black-hackers".
 
